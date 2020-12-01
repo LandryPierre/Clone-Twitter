@@ -1,120 +1,105 @@
 /* navbar */
 .nav-link {
-    margin: 8px;
-    
+  margin: 8px;
 }
-.nav-item{
-font-size:15px;
-padding-bottom:10px;
-padding-left:20px;
-font-size:20px;
-}
-
-.fa-home{
-    
-margin-right:8px;
-}
-.fa-globe{
-    margin-right:8px;
-}
-.fa-bell{
-    margin-right:8px;
-}
-.fa-envelope{
-    margin-right:8px;
-}
-.fa-bookmark{
-    margin-right:8px;
-}
-.fa-list{
-    margin-right:8px;
-}
-.fa-user{
-    margin-right:8px;
-}
-.fa-info{
-    margin-right:8px;
-}
-<<<<<<< HEAD
-
-button{
-    font-family:monospace;
-    font-size:25px;
-    background-color:#03A9F4;
-    border:none;
-    border-radius:10px;
-    color:white;
-    cursor:pointer;
-    outline:none;
-    padding:10px;
-    transition:0.2s;
+.nav-item {
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 20px;
 }
 
-button:hover{
-    transform:scale(1.01);
-    }
-
-    button:active{
-       transform:scale(0,98);
-    }
-h1 {
-    position: relative;  left:300px 
+.fa-home {
+  margin-right: 8px;
 }
-/* Head */
-body{
-    background-color: black;
-    color:white;
-    display: flex;
+.fa-globe {
+  margin-right: 8px;
+}
+.fa-bell {
+  margin-right: 8px;
+}
+.fa-envelope {
+  margin-right: 8px;
+}
+.fa-bookmark {
+  margin-right: 8px;
+}
+.fa-list {
+  margin-right: 8px;
+}
+.fa-user {
+  margin-right: 8px;
+}
+.fa-info {
+  margin-right: 8px;
 }
 
-=======
->>>>>>> 1cff3ab7fa98c373f7101e1af514ac06d0a5c805
+button {
+  font-family: monospace;
+  font-size: 25px;
+  background-color: #03a9f4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.01);
+}
+
+button:active {
+  transform: scale(0, 98);
+}
+
 .navbar {
-    width: 250px;
-    align-items: start;
+  width: 250px;
+  align-items: start;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-    color: rgba(29,161,242,1.00);
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(29, 161, 242, 1);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
-
+  color: white;
 }
 /* @media (min-width:992px) {     */
-    .vertical-nav {
-        position: fixed;
-        top: 56px;
-        left: 0;
-        width: 200px;
-        height: 100%;
-        background-color: rgb(0, 0, 0);
-        overflow-y: auto;
-        padding-top: 30px
-      }
-  /* } */
-  
+.vertical-nav {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  overflow-y: auto;
+  padding-top: 30px;
+}
+/* } */
+
 .twitter-i {
-    height: 2rem;
-    width: 1.5em;
-    fill: #fff;
+  height: 2rem;
+  width: 1.5em;
+  fill: #fff;
 }
 
 /* Head */
-body{
-    background-color: black;
-    color:white;
-    display: flex;
+body {
+  background-color: black;
+  color: white;
+  display: flex;
 }
 /* h1 {
     position: relative;  left:300px 
 } */
-.hj{
-    display: block;
-    box-sizing: border-box;
-    flex: 1;
+.hj {
+  display: block;
+  box-sizing: border-box;
+  flex: 1;
 }
-.tendances{
-    width: 250px;
+.tendances {
+  width: 250px;
 }
