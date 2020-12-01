@@ -1,10 +1,38 @@
-.m-link {
-    margin: 5px;
+.nav-link {
+    margin: 8px;
     
 }
-.m-right{
+.nav-item{
+font-size:15px;
+padding-bottom:10px;
+padding-left:20px;
 font-size:20px;
-padding-bottom:50px;
+}
+
+.fa-home{
+    
+margin-right:8px;
+}
+.fa-globe{
+    margin-right:8px;
+}
+.fa-bell{
+    margin-right:8px;
+}
+.fa-envelope{
+    margin-right:8px;
+}
+.fa-bookmark{
+    margin-right:8px;
+}
+.fa-list{
+    margin-right:8px;
+}
+.fa-user{
+    margin-right:8px;
+}
+.fa-info{
+    margin-right:8px;
 }
 
 h1 {
@@ -13,7 +41,7 @@ h1 {
 /* Head */
 body{
     background-color: black;
-    color: white;
+    color:white;
     display: flex;
 }
 
