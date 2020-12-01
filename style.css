@@ -59,7 +59,10 @@ p{
     font-size:18px
 }
 
+.box2{
+    position:absolute;left:700px
 
+}
 
 .navbar {
   width: 250px;
