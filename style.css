@@ -77,9 +77,8 @@ body{
       }
   /* } */
   
-  .twitter-i {
+.twitter-i {
     height: 2rem;
     width: 1.5em;
     fill: #fff;
-  }
-
+}
