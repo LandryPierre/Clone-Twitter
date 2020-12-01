@@ -99,9 +99,35 @@ body {
   display: block;
   box-sizing: border-box;
   flex: 1;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-left-style: solid;
+  border-right-style: solid;
 }
 .tendances {
   width: 250px;
+}
+h1{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.container{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.qdn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+.qdn2 input{
+    color: white;
+    background-color: black;
+    border: none;
 }
 /* barre de recherche */
 
@@ -138,4 +164,8 @@ body {
 	border-radius: 50%;
 	color: white;
 }
-
+img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
