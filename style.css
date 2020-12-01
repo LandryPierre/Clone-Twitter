@@ -1,3 +1,4 @@
+/* navbar */
 .nav-link {
     margin: 8px;
     
@@ -34,17 +35,6 @@ margin-right:8px;
 .fa-info{
     margin-right:8px;
 }
-
-h1 {
-    position: relative;  left:300px 
-}
-/* Head */
-body{
-    background-color: black;
-    color:white;
-    display: flex;
-}
-
 .navbar {
     width: 250px;
     align-items: start;
@@ -58,12 +48,6 @@ body{
     color: white;
 
 }
-
-.hj{
-    display: block;
-    box-sizing: border-box;
-}
-
 /* @media (min-width:992px) {     */
     .vertical-nav {
         position: fixed;
@@ -81,4 +65,18 @@ body{
     height: 2rem;
     width: 1.5em;
     fill: #fff;
+}
+
+/* Head */
+body{
+    background-color: black;
+    color:white;
+    display: flex;
+}
+h1 {
+    position: relative;  left:300px 
+}
+.hj{
+    display: block;
+    box-sizing: border-box;
 }
