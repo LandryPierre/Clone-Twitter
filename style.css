@@ -55,6 +55,12 @@ button:active {
   transform: scale(0, 98);
 }
 
+p{
+    font-size:18px
+}
+
+
+
 .navbar {
   width: 250px;
   align-items: start;
