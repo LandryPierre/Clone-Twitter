@@ -142,11 +142,39 @@ body {
     -webkit-box-orient: horizontal;
     flex-direction: row;
 }
-.qdn2 input{
-    color: white;
-    background-color: black;
-    border: none;
+
+.qdn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.qdn2 p {
+    display: inline-block;
+    flex: 1;
+    margin: 5px;
+}
+.textarea {
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1px 6px;
+  }
+  
+  .textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: none;
+    min-height: 40px;
+    line-height: 20px;
+  }
+  
+  .textarea[contenteditable]:empty::before {
+    content: "Placeholder still possible";
+    color: gray;
+  }
+
 /* barre de recherche */
 
 .recherche_p{
