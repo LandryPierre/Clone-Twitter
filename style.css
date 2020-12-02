@@ -123,10 +123,10 @@ body {
 .tendances {
   width: 250px;
 }
-h1{
+/* h1{
     border-bottom-width: 1px;
     border-bottom-style: solid;
-}
+} */
 .container{
     border-bottom-width: 1px;
     border-bottom-style: solid;
