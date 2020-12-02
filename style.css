@@ -150,14 +150,14 @@ h1{
 /* barre de recherche */
 
 .recherche_p{
-	background-color: #eeeeee;
-	border: 1px solid #dddddd;
+	background-color: black;
+	/* border: 1px solid #dddddd; */
 	padding: 10px 10px 10px 10px;
 }
 .recherche-barr{
 	margin-bottom: auto;
 	margin-top: auto;
-	background-color: #7c828e;
+	background-color: rgb(47, 51, 54);
 }
 .recherche-input{
 	border: 0;
@@ -166,7 +166,7 @@ h1{
 }
 .recherche-barr:hover > .recherche-input{
 	padding: 0 10px;
-	width: 320px;
+	width: 180px;
 	transition: width 0.4s linear;
 }
 .recherche-icone:hover{
