@@ -123,13 +123,8 @@ body {
   border-left-style: solid;
   border-right-style: solid;
 }
-<<<<<<< HEAD
-.tendances{
-  width: 300px;
-=======
 .tendances {
   width: 250px;
->>>>>>> c1fa32871b5cc351f7eeedb13087d7cc8d9bfc93
 }
 /* h1{
     border-bottom-width: 1px;
@@ -249,7 +244,6 @@ img{
     height: 80px;
     object-fit: cover;
 }
-<<<<<<< HEAD
 
 .normal-pp{
   width: 80px;
@@ -271,8 +265,6 @@ img{
   color:white;
 }
 
-=======
->>>>>>> c1fa32871b5cc351f7eeedb13087d7cc8d9bfc93
 .suggestions{
     margin: 13px;
     border-radius: 16px;
@@ -296,11 +288,7 @@ img{
 .sg p{
     font-size: 1rem;
     display: inline-block;
-<<<<<<< HEAD
-    margin: 4px;
-=======
     margin: 3px;
->>>>>>> c1fa32871b5cc351f7eeedb13087d7cc8d9bfc93
     color: white;
 }
 .suggestions h5{
