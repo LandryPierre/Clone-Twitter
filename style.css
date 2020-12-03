@@ -242,22 +242,25 @@ img{
     height: 80px;
     object-fit: cover;
 }
-.manga img{
-  width:30px;
-  height:32px;
+
+.normal-pp{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
 }
+
+.small-pp{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
 .manga {
-  background-color:white;
-  width:80%;height:300px;
+  width:85%;
+  height:auto;
   margin:0 auto;
   margin-bottom:20px;
-  color:black;
-}
-
-.film img{
-  width:80%;height:210px;
-  margin:89px;padding:78;
-
+  color:white;
 }
 
 .suggestions{
