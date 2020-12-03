@@ -60,8 +60,9 @@ p{
 }
 
 .box2{
-    position:absolute;left:700px
-
+    position:absolute;
+    left:660px;
+    bottom:605px;
 }
 
 .navbar {
@@ -138,6 +139,28 @@ h1{
     background-color: black;
     border: none;
 }
+.container2{ 
+  border-bottom-width: 1px;
+  border-bottom-style: solid;}
+  
+  .qdn0{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+
+  .qdn1 input{
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+
+
 /* barre de recherche */
 
 .recherche_p{
@@ -178,3 +201,21 @@ img{
     height: 80px;
     object-fit: cover;
 }
+.manga img{
+  width:30px;
+  height:32px;
+}
+.manga {
+  background-color:white;
+  width:80%;height:300px;
+  margin:0 auto;
+  margin-bottom:20px;
+  color:black;
+}
+
+.film img{
+  width:80%;height:210px;
+  margin:89px;padding:78;
+
+}
+
