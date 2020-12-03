@@ -124,7 +124,7 @@ body {
   border-right-style: solid;
 }
 .tendances{
-  width: 250px;
+  width: 300px;
 }
 .container{
     border-bottom-width: 1px;
@@ -278,9 +278,9 @@ img{
     
 }
 .sg p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: inline-block;
-    margin: 1px;
+    margin: 4px;
     color: white;
 }
 .suggestions h5{
