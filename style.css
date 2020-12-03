@@ -114,7 +114,7 @@ body {
     border-bottom-color: rgb(47, 51, 54);
     background-color: rgb(21, 24, 28);
 }
-.hj {
+.hj{
   display: block;
   box-sizing: border-box;
   flex: 1;
@@ -123,7 +123,7 @@ body {
   border-left-style: solid;
   border-right-style: solid;
 }
-.tendances {
+.tendances{
   width: 250px;
 }
 .container{
@@ -150,6 +150,10 @@ body {
     display: inline-block;
     flex: 1;
     margin: 5px;
+}
+.qdn2 .profil{
+    margin-top: 170px;
+    margin-right: 744px;
 }
 .textarea {
     border: none;
