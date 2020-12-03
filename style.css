@@ -221,6 +221,7 @@ img{
     height: 80px;
     object-fit: cover;
 }
+<<<<<<< HEAD
 .suggestions{
     margin: 13px;
     border-radius: 16px;
@@ -246,4 +247,17 @@ img{
 .suggestions h5{
     margin: 13px;
     padding: 13px;
+=======
+.zoo.jpg{
+  width: 5px;
+}
+.container2{
+border: solid;
+border-radius: 10px;
+width: 1000px;
+margin-left: 3%;
+margin-right: 3%;
+height: 500px;
+
+>>>>>>> f686a707089ca4d57a2f37b317de06ff04482ffc
 }
