@@ -114,7 +114,7 @@ body {
     border-bottom-color: rgb(47, 51, 54);
     background-color: rgb(21, 24, 28);
 }
-.hj{
+.hj {
   display: block;
   box-sizing: border-box;
   flex: 1;
@@ -123,9 +123,13 @@ body {
   border-left-style: solid;
   border-right-style: solid;
 }
-.tendances{
+.tendances {
   width: 250px;
 }
+/* h1{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+} */
 .container{
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -141,11 +145,13 @@ body {
     -webkit-box-orient: horizontal;
     flex-direction: row;
 }
+
 .qdn2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .qdn2 p {
     display: inline-block;
     flex: 1;
@@ -175,27 +181,6 @@ body {
     content: "Quoi de neuf?";
     color: gray;
   }
-
-/* Articles Tweet */
-.container3{ 
-  border-bottom-width: 1px;
-  border-bottom-style: solid;}
-  
-  .qdn0{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    flex-direction: row;
-}
-
-  .qdn1 input{
-  color: white;
-  background-color: black;
-  border: none;
-}
 
 /* barre de recherche */
 
@@ -236,30 +221,11 @@ h4{
     margin: 10px;
 }
 
-/* Brian Part */
 img{
     width: 80px;
     height: 80px;
     object-fit: cover;
 }
-.manga img{
-  width:30px;
-  height:32px;
-}
-.manga {
-  background-color:white;
-  width:80%;height:300px;
-  margin:0 auto;
-  margin-bottom:20px;
-  color:black;
-}
-.film img{
-  width:80%;height:210px;
-  margin:89px;padding:78;
-
-}
-
-/* Espaces Tendances */
 .suggestions{
     margin: 13px;
     border-radius: 16px;
@@ -281,19 +247,15 @@ img{
     
 }
 .sg p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: inline-block;
-    margin: 1px;
+    margin: 3px;
     color: white;
 }
 .suggestions h5{
-    padding: 15px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
-
-
-/* Page Tweet */
 .zoo.jpg{
   width: 5px;
 }
@@ -302,11 +264,6 @@ border: solid 2px;
 border-radius: 10px;
 width: 1000px;
 height: 500px;
-<<<<<<< HEAD
 border-bottom: px;
 margin: 45px;
 }
-=======
-
-}
->>>>>>> 07da27649c292fcf421399746d37f4898f97190d
