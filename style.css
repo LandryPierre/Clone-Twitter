@@ -217,3 +217,15 @@ img{
     height: 80px;
     object-fit: cover;
 }
+.zoo.jpg{
+  width: 5px;
+}
+.container2{
+border: solid;
+border-radius: 10px;
+width: 1000px;
+margin-left: 3%;
+margin-right: 3%;
+height: 500px;
+
+}
