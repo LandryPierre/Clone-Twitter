@@ -155,7 +155,7 @@ body {
     margin: 5px;
 }
 .textarea {
-    border: 1px solid #ccc;
+    border: none;
     font-family: inherit;
     font-size: inherit;
     padding: 1px 6px;
@@ -171,7 +171,7 @@ body {
   }
   
   .textarea[contenteditable]:empty::before {
-    content: "Placeholder still possible";
+    content: "Quoi de neuf?";
     color: gray;
   }
 
@@ -210,12 +210,44 @@ body {
 	border-radius: 50%;
 	color: white;
 }
-
+h4{
+    margin: 10px;
+}
 
 img{
     width: 80px;
     height: 80px;
     object-fit: cover;
+}
+.suggestions{
+    margin: 13px;
+    border-radius: 16px;
+    background-color: rgb(21, 24, 28);
+    border-color: rgb(21, 24, 28);
+    border-width: 1px;
+    border-style: solid;
+}
+.sg2{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(47, 51, 54);
+}
+.sg {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.sg p{
+    font-size: 1rem;
+    display: inline-block;
+    margin: 3px;
+    color: white;
+}
+.suggestions h5{
+    padding-left: 15px;
+    padding-top: 15px;
 }
 .zoo.jpg{
   width: 5px;
