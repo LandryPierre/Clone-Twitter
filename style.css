@@ -148,9 +148,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.img{
-    
-}
+
 .qdn2 p {
     display: inline-block;
     flex: 1;
@@ -224,6 +222,10 @@ img{
 .suggestions{
     margin: 13px;
     border-radius: 16px;
+    background-color: rgb(21, 24, 28);
+    border-color: rgb(21, 24, 28);
+    border-width: 1px;
+    border-style: solid;
 }
 .sg2{
     border-bottom-width: 1px;
@@ -244,8 +246,8 @@ img{
     color: white;
 }
 .suggestions h5{
-    margin: 13px;
-    padding: 13px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 .zoo.jpg{
   width: 5px;
