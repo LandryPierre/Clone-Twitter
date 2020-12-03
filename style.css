@@ -151,11 +151,42 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.qdn2 p {
+    display: inline-block;
+    flex: 1;
+    margin: 5px;
+}
+.qdn2 .profil{
+    margin-top: 170px;
+    margin-right: 744px;
+}
+.textarea {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1px 6px;
+} 
+.textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: none;
+    min-height: 40px;
+    line-height: 20px;
+}
+  
+.textarea[contenteditable]:empty::before {
+    content: "Quoi de neuf?";
+    color: gray;
+}
+
+/* Articles Tweet */
 .container3{ 
   border-bottom-width: 1px;
   border-bottom-style: solid;}
   
-  .qdn0{
+.qdn0{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
@@ -164,42 +195,13 @@ body {
     -webkit-box-orient: horizontal;
     flex-direction: row;
 }
-
   .qdn1 input{
   color: white;
   background-color: black;
   border: none;
 }
 
-
-.qdn2 p {
-    display: inline-block;
-    flex: 1;
-    margin: 5px;
-}
-.textarea {
-    border: none;
-    font-family: inherit;
-    font-size: inherit;
-    padding: 1px 6px;
-  }
-  
-  .textarea {
-    display: block;
-    width: 100%;
-    overflow: hidden;
-    resize: none;
-    min-height: 40px;
-    line-height: 20px;
-  }
-  
-  .textarea[contenteditable]:empty::before {
-    content: "Quoi de neuf?";
-    color: gray;
-  }
-
 /* barre de recherche */
-
 .recherche_p{
 	background-color: black;
 	/* border: 1px solid #dddddd; */
@@ -242,6 +244,7 @@ img{
     height: 80px;
     object-fit: cover;
 }
+<<<<<<< HEAD
 
 .normal-pp{
   width: 80px;
@@ -263,6 +266,8 @@ img{
   color:white;
 }
 
+=======
+>>>>>>> c1fa32871b5cc351f7eeedb13087d7cc8d9bfc93
 .suggestions{
     margin: 13px;
     border-radius: 16px;
@@ -297,11 +302,10 @@ img{
   width: 5px;
 }
 .container2{
-border: solid;
+border: solid 2px;
 border-radius: 10px;
 width: 1000px;
-margin-left: 3%;
-margin-right: 3%;
 height: 500px;
-
+border-bottom: px;
+margin: 45px;
 }
